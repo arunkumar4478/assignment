@@ -1,0 +1,17 @@
+
+1. - Given a company, the API needs to return all their employees. Provide the appropriate solution if the company does not have any employees.
+	a. Positve Scenario:
+		http://127.0.0.1:5000/companies/1/employees
+	
+	b. Negative scenario
+		http://127.0.0.1:5000/companies/2000/employees
+
+
+2. - Given 2 people, provide their information (Name, Age, Address, phone) and the list of their friends in common which have brown eyes and are still alive.
+
+	a. Positve Scenario:
+		http://127.0.0.1:5000/people/1/2/populate_details_and_common_friends
+	
+	b. Negative scenario
+		http://127.0.0.1:5000/people/1/20000/populate_details_and_common_friends
+

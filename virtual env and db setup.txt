@@ -1,0 +1,13 @@
+1. create virtual env
+	python -m venv env
+
+2. Activate virtual env
+	.\env\Scripts\activate
+
+3. Install libraries
+	pip install --no-cache-dir -r requirements.txt
+
+4. Load data in mongo db
+	mongoimport --db paranuaradb --collection companies --drop --jsonArray --file resources\companies.json
+
+	mongoimport --db paranuaradb --collection people --drop --jsonArray --file resources\people.json
